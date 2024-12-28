@@ -1,0 +1,161 @@
+[2024-07-24 09:26:01,416] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:26:04,634] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:26:53,284] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:27:15,316] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:27:30,781] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:27:30,789] root - INFO - ====================Data Ingestion log started.==================== 
+[2024-07-24 09:27:30,789] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2024-07-24 09:27:30,789] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:27:30,789] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2024-07-24 09:27:30,789] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:27:30,789] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2024-07-24 09:27:30,789] root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:27:33,357] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:27:33,358] root - INFO - ====================Data Ingestion log started.==================== 
+[2024-07-24 09:27:33,358] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2024-07-24 09:27:33,358] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:27:33,360] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2024-07-24 09:27:33,360] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:27:33,360] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2024-07-24 09:27:33,361] root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:27:59,943] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:28:01,228] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:28:02,827] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:28:06,204] root - INFO - Downloaded data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:28:07,269] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2024-07-24 09:28:07,269] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2024-07-24 09:28:07,269] root - INFO - ====================Data Validation log started.==================== 
+[2024-07-24 09:28:09,979] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:28:12,048] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2024-07-24 09:28:12,048] root - INFO -  Shape of books data file: (271360, 8)
+[2024-07-24 09:28:14,676] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2024-07-24 09:28:15,387] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2024-07-24 09:28:15,434] root - INFO - Saved final_rating serialization object to artifacts\serialized_objects
+[2024-07-24 09:28:15,551] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2024-07-24 09:28:15,551] root - INFO - ====================Data Transformation log started.==================== 
+[2024-07-24 09:28:15,903] root - INFO -  Shape of book pivot table: (742, 888)
+[2024-07-24 09:28:15,925] root - INFO - Saved pivot table data to artifacts\dataset\transformed_data
+[2024-07-24 09:28:15,929] root - INFO - Saved book_names serialization object to artifacts\serialized_objects
+[2024-07-24 09:28:15,936] root - INFO - Saved book_pivot serialization object to artifacts\serialized_objects
+[2024-07-24 09:28:15,936] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2024-07-24 09:28:15,936] root - INFO - ====================Model Trainer log started.==================== 
+[2024-07-24 09:28:15,978] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2024-07-24 09:28:15,978] root - INFO - ====================Model Trainer log completed.==================== 
+
+
+[2024-07-24 09:28:26,705] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:28:35,153] root - INFO - Downloaded data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:28:36,253] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2024-07-24 09:28:36,253] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2024-07-24 09:28:36,253] root - INFO - ====================Data Validation log started.==================== 
+[2024-07-24 09:28:40,185] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2024-07-24 09:28:40,185] root - INFO -  Shape of books data file: (271360, 8)
+[2024-07-24 09:28:42,573] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2024-07-24 09:28:43,362] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2024-07-24 09:28:43,411] root - INFO - Saved final_rating serialization object to artifacts\serialized_objects
+[2024-07-24 09:28:43,535] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2024-07-24 09:28:43,544] root - INFO - ====================Data Transformation log started.==================== 
+[2024-07-24 09:28:43,907] root - INFO -  Shape of book pivot table: (742, 888)
+[2024-07-24 09:28:43,924] root - INFO - Saved pivot table data to artifacts\dataset\transformed_data
+[2024-07-24 09:28:43,932] root - INFO - Saved book_names serialization object to artifacts\serialized_objects
+[2024-07-24 09:28:43,940] root - INFO - Saved book_pivot serialization object to artifacts\serialized_objects
+[2024-07-24 09:28:43,940] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2024-07-24 09:28:43,940] root - INFO - ====================Model Trainer log started.==================== 
+[2024-07-24 09:28:43,972] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2024-07-24 09:28:43,972] root - INFO - ====================Model Trainer log completed.==================== 
+
+
+[2024-07-24 09:30:44,415] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:30:46,617] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:31:17,784] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:31:17,793] root - INFO - ====================Data Ingestion log started.==================== 
+[2024-07-24 09:31:17,794] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2024-07-24 09:31:17,795] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:31:17,795] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2024-07-24 09:31:17,795] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:31:17,795] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2024-07-24 09:31:17,795] root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:31:25,407] root - INFO - Downloaded data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:31:25,854] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2024-07-24 09:31:25,854] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2024-07-24 09:31:25,854] root - INFO - ====================Data Validation log started.==================== 
+[2024-07-24 09:31:27,516] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2024-07-24 09:31:27,516] root - INFO -  Shape of books data file: (271360, 8)
+[2024-07-24 09:31:28,663] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2024-07-24 09:31:28,962] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2024-07-24 09:31:28,979] root - INFO - Saved final_rating serialization object to artifacts\serialized_objects
+[2024-07-24 09:31:29,058] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2024-07-24 09:31:29,058] root - INFO - ====================Data Transformation log started.==================== 
+[2024-07-24 09:31:29,213] root - INFO -  Shape of book pivot table: (742, 888)
+[2024-07-24 09:31:29,236] root - INFO - Saved pivot table data to artifacts\dataset\transformed_data
+[2024-07-24 09:31:29,236] root - INFO - Saved book_names serialization object to artifacts\serialized_objects
+[2024-07-24 09:31:29,245] root - INFO - Saved book_pivot serialization object to artifacts\serialized_objects
+[2024-07-24 09:31:29,245] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2024-07-24 09:31:29,245] root - INFO - ====================Model Trainer log started.==================== 
+[2024-07-24 09:31:29,261] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2024-07-24 09:31:29,261] root - INFO - ====================Model Trainer log completed.==================== 
+
+
+[2024-07-24 09:31:38,050] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:31:38,051] root - INFO - ====================Data Ingestion log started.==================== 
+[2024-07-24 09:31:38,051] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2024-07-24 09:31:38,051] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:31:38,051] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2024-07-24 09:31:38,051] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:31:38,052] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2024-07-24 09:31:38,052] root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:31:40,267] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:31:40,267] root - INFO - ====================Data Ingestion log started.==================== 
+[2024-07-24 09:31:40,267] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2024-07-24 09:31:40,267] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:31:40,267] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2024-07-24 09:31:40,274] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2024-07-24 09:31:40,275] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2024-07-24 09:31:40,275] root - INFO - Downloading data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:31:46,081] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:31:47,232] root - INFO - Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2024-07-24 09:32:03,091] root - INFO - Downloaded data from https://github.com/entbappy/Branching-tutorial/raw/master/books_data.zip into file artifacts\dataset\raw_data\books_data.zip
+[2024-07-24 09:32:03,630] root - INFO - Extracting zip file: artifacts\dataset\raw_data\books_data.zip into dir: artifacts\dataset\ingested_data
+[2024-07-24 09:32:03,630] root - INFO - ====================Data Ingestion log completed.==================== 
+
+
+[2024-07-24 09:32:03,630] root - INFO - ====================Data Validation log started.==================== 
+[2024-07-24 09:32:05,582] root - INFO -  Shape of ratings data file: (1149780, 3)
+[2024-07-24 09:32:05,582] root - INFO -  Shape of books data file: (271360, 8)
+[2024-07-24 09:32:07,003] root - INFO -  Shape of the final clean dataset: (59850, 9)
+[2024-07-24 09:32:07,334] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2024-07-24 09:32:07,359] root - INFO - Saved final_rating serialization object to artifacts\serialized_objects
+[2024-07-24 09:32:07,424] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2024-07-24 09:32:07,424] root - INFO - ====================Data Transformation log started.==================== 
+[2024-07-24 09:32:07,574] root - INFO -  Shape of book pivot table: (742, 888)
+[2024-07-24 09:32:07,591] root - INFO - Saved pivot table data to artifacts\dataset\transformed_data
+[2024-07-24 09:32:07,592] root - INFO - Saved book_names serialization object to artifacts\serialized_objects
+[2024-07-24 09:32:07,592] root - INFO - Saved book_pivot serialization object to artifacts\serialized_objects
+[2024-07-24 09:32:07,592] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2024-07-24 09:32:07,592] root - INFO - ====================Model Trainer log started.==================== 
+[2024-07-24 09:32:07,616] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2024-07-24 09:32:07,616] root - INFO - ====================Model Trainer log completed.==================== 
+
+

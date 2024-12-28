@@ -1,0 +1,10 @@
+body {
+    background-image: url(notebook\background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.stApp {
+    background: rgba(234, 166, 232, 0.8);  /* Adds a white overlay with some transparency to ensure text readability */
+}
