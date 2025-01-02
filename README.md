@@ -35,8 +35,7 @@ Before running the project, make sure you have the following installed:
 1. **Clone the Repository**
 
    First, clone the repository to your local machine:
-
-   ```bash
+   bash
    git clone https://github.com/yourusername/Book-Recommendation-System.git
    cd Book-Recommendation-System
 2. **Create a Virtual Environment (optional but recommended)**
@@ -51,12 +50,9 @@ source venv/bin/activate   # For Linux/Mac
 3. **Install Dependencies**
 
 Install the required Python libraries using the following command:
-
 bash
 pip install -r requirements.txt
 If the requirements.txt file doesn't exist, you can manually install the dependencies with:
-
-
 pip install numpy pandas scikit-learn streamlit
 
 4. **Load Pretrained Models and Data**
@@ -71,11 +67,9 @@ If these files are missing, follow the next step to train the model.
 5. **Run the Training Pipeline**
 
 If you do not have the pre-trained models, you can train the system by running the train_engine() function:
-
 Open the app.py file in the notebook/ directory.
 
 Run the code to train the model:
-
 python :
 obj.train_engine()
 This will train the KNN model using the dataset and generate the necessary .pkl files.
@@ -83,7 +77,6 @@ This will train the KNN model using the dataset and generate the necessary .pkl 
 6. **Run the Streamlit Application**
 
 After installing the dependencies and loading the models, you can start the Streamlit web interface by running:
-
 bash
 streamlit run app.py
 This command will launch the application in your web browser.
