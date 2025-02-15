@@ -92,26 +92,28 @@ Folder Structure
 
 bash
 Book-Recommendation-System/
-│
-├── notebook/
-│   ├── app.py                    # Main Streamlit app
-│   ├── style.css                 # Custom styles for the app
-│   └── requirements.txt          # Project dependencies
-│
-├── books_recommender/            # Core logic for book recommendation
-│   ├── components/               # Components of the recommendation pipeline
-│   ├── logger/                   # Logging setup
-│   └── config/                   # Configuration files
-│
-├── data/                         # Data folder for raw and processed data
-│   ├── book_names.pkl            # Pickled book names for dropdown
-│   └── final_rating.pkl          # Data with book ratings and URLs
-│
-├── artifacts/                    # Folder to store trained models and serialized data
-│   ├── trained_model.pkl         # Trained KNN model
-│   ├── book_pivot.pkl            # Pivoted book data
-│   └── final_rating.pkl          # Final ratings data
-└── README.md                     # Project documentation
+│                                                                                                                                                                  
+├── notebook/                                                                                                                                                      
+│   ├── app.py                    # Main Streamlit app                                                                                                             
+│   ├── style.css                 # Custom styles for the app                                                                                                      
+│   └── requirements.txt          # Project dependencies                                                                                                           
+                                                                                                                                                                  
+│                                                                                                                                                                  
+├── books_recommender/            # Core logic for book recommendation                                                                                             
+│   ├── components/               # Components of the recommendation pipeline                                                                                      
+│   ├── logger/                   # Logging setup                                                                                                                  
+│   └── config/                   # Configuration files                                                                                                            
+
+│                                                                                                                                                                  
+├── data/                         # Data folder for raw and processed data                                                                                         
+│   ├── book_names.pkl            # Pickled book names for dropdown                                                                                                
+│   └── final_rating.pkl          # Data with book ratings and URLs                                                                                                                                                                                                                                                                   
+│                                                                                                                                                                  
+├── artifacts/                    # Folder to store trained models and serialized data                                                                             
+│   ├── trained_model.pkl         # Trained KNN model                                                                                                              
+│   ├── book_pivot.pkl            # Pivoted book data                                                                                                              
+│   └── final_rating.pkl          # Final ratings data                                                                                                             
+└── README.md                     # Project documentation                                                                                                      
 
 **Troubleshooting**
 If you encounter any issues during setup or execution:
